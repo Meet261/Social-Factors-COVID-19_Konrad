@@ -6,7 +6,7 @@ library(readr)    # For reading the data
 url <- "https://osf.io/r8gmc/download"
 
 # Define the file path where the dataset will be saved
-destfile <- "dataset.csv"
+destfile <- "data_Konrad_etal.csv"
 
 # Download the file
 download.file(url, destfile, method = "curl")
